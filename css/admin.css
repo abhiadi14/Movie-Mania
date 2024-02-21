@@ -1,0 +1,187 @@
+.wrapper {
+    
+    padding: 1%;
+    width: 80%;
+    margin: auto;
+    
+}
+
+*{
+    
+    margin: 0;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+/* footer */
+
+.footer{
+    color: orange;
+    font-weight: 100;
+    font-size: 26px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+
+}
+
+.motiv3{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.menu{
+    background-color: black;
+}
+
+.navbar {
+    
+    display: inline-block;
+    
+    
+   
+}
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.navbar li a {
+    color: rgb(255, 132, 0);
+    text-decoration: none;
+    padding:5px;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px  rgb(255, 72, 0);
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    transition: 0.25s;
+    transform: scale(1.08);
+    color: rgb(255, 115, 0);
+
+}
+
+.main-content{
+    margin:  1% 0;
+    background-color: rgb(230, 230, 230);
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: orange;
+    margin: 1%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-30{
+    width: 30%;
+    
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: rgb(162, 255, 0);
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn-primary:hover{
+    transition: 0.25s;
+    background-color: rgb(98, 255, 0);
+}
+
+.btn-secondary{
+    background-color: rgb(255, 196, 0);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1.5%;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn-secondary:hover{
+    transition: 0.25s;
+    background-color: rgb(255, 166, 0);
+}
+
+.btn-danger{
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1.3%;
+    font-weight: 100;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.btn-danger:hover{
+    transition: 0.25s;
+    background-color: rgb(189, 0, 0);
+}
+
+.success{
+    color: green;
+ 
+  
+}
+
+.error{
+    color: rgb(255, 91, 91);
+}
+
+.motiv{
+    font-size: 50px;
+    text-align: center;
+    font-family: monospace;
+    color: orange;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px  rgb(255, 150, 0);
+}
+
+.login{
+    background-color: black;
+    border: 1px solid grey;
+    width: 30%;
+    margin: 5% auto;
+    text-align: center;
+}
+
